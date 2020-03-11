@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,html{
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+}
+main{
+    max-width: 1280px;
+    min-height: 880px;
+    margin: 0 auto;
+    background: url("../img/bg-2-main.jpeg") no-repeat center/cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+.wrapper{
+    max-width: 80%;
+    margin: 0 auto;
+}
+header p{
+    background: #80b7b2;
+    max-width: 300px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    opacity: 0.8;
+    width: 100%;
+}
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: -85px;
+}
+article span{
+    font-size: 30px;
+    display: inline-block;
+    color: black;
+}
+nav h1{
+    font-size: 7.5rem;
+    font-weight: 400;
+    color: #eff0f2;
+    text-transform: uppercase;
+    letter-spacing: 4rem;
+    position: relative;
+    z-index: 0;
+}
+
+/* ---- travel - content -----*/
+.travel-content{
+    display: flex;
+    flex-flow: row  wrap;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.travel-left{
+    flex-basis: 450px;
+    justify-content: center;
+}
+.travel-left h5{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color:black ;
+    opacity: 0.7;
+    font-size: 0.7rem;
+}
+.travel-left h2{
+    margin-bottom: 50px;
+}
+.travel-left p{
+    margin-bottom: 30px;
+}
+.travel-left button{
+    width: 195px;
+    height: 40px;
+    text-align: center;
+    background: #70a7a2;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.travel-left button:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.travel-right{
+    position: relative;
+}
+.trav-img1{
+    max-width: 250px;
+    height: 200px;
+    position: absolute;
+    border: 10px solid #ffffff;
+    right: 58%;
+    top: 15%;
+}
+.trav-img2{
+    max-width: 500px;
+}
+
+
+/* ---- travel-low-part -----*/
+
+.travel-low-part-content{
+    max-width: 810px ;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.travel-low-part-content h5{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color:black ;
+    opacity: 0.7;
+    font-size: 0.7rem;
+}
+.travel-low-part-content h2{
+    font-size: 2rem ;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.travel-low-part-content p{
+    max-width: 650px;
+    margin-top: 80px;
+}
+.travel-low-part-content img{
+    width: 100%;
+    border: 10px solid #ffffff;
+}
+.travel-low-part-content button{
+    width: 195px;
+    height: 40px;
+    text-align: center;
+    background: #70a7a2;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin: 80px 0 100px 0;
+}
+.travel-low-part-content button:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.img-transfer img{
+    width: 100%;
+}
+
+/* ---- Comments -----*/
+.comments-content{
+    display: flex;
+    flex-flow: column;
+    margin-top: 150px;
+    position: relative;
+}
+.comments-l{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.comments-l img{
+    max-width: 400px;
+    border: 10px solid #ffffff;
+}
+.comments-l .comments-item{
+    flex-basis: 360px;
+    margin: 50px;
+}
+.comments-item h5{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.comments-item p{
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.comments-r{
+    max-width: 750px;
+    min-height: 200px;
+    background: #ffffff;
+    align-self: center;
+    position: relative;
+    top: -50px;
+    text-align: center;
+}
+.comments-r .comm{
+    max-width: 450px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 50px 60px 0 60px;
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 2.5rem;
+}
+.comments-r .creator{
+    max-width: 450px;
+    font-family: 'Open Sans', sans-serif;
+    margin:  25px auto;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+
+.comments-r button{
+    width: 195px;
+    height: 40px;
+    text-align: center;
+    background: #70a7a2;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    position: relative;
+    bottom: -20px;
+}
+.comments-r button:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+
+
+/* --- Form - Back ----*/
+.form-back{
+    margin-top: 200px;
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    background: url("../img/img5.jpg") no-repeat center/cover;
+}
+.form-back-content{
+    background: #3c4f56;
+    opacity: 0.9;
+    max-width: 670px;
+    min-height: 200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0  auto;
+    border-radius: 10px;
+}
+.form-back-content p{
+    color: #ffffff ;
+    margin: 20px;
+    text-align: center;
+}
+.form-back-content  .inputs{
+    flex-wrap: wrap;
+}
+.form-back-content  .inputs input{
+    max-width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.form-back-content button{
+    max-width: 195px;
+    height: 40px;
+    text-align: center;
+    background: #70a7a2;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 10px;
+}
+.form-back-content button:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+
+    /*  ------ Footer -----*/
+
+footer{
+    min-height: 100px;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    background: #3c4f56;
+    color: white;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+@media screen and (max-width: 320px){
+    footer{
+        font-size: 0.7rem
+    }
+}
+
+
+@media screen and (max-width: 520px){
+    .top-part-content span{
+        display: none;
+    }
+    nav{
+        top: -20px;
+    }
+    nav h1{
+        font-size: 2.5rem;
+        letter-spacing: 2rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .trav-img2{
+        width: 280px;
+        align-self: center;
+    }
+    .travel-left button{
+        margin-bottom: 70px;
+    }
+    .comments-l img{
+        max-width: 280px;
+    }
+    .comments-r .comm{
+        font-size: 1.3rem
+    }
+
+
+    .travel-low-part-content h2{
+        font-size: 1.5rem ;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .top-part-content span{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1050px) {
+    .travel-content{
+        justify-content: center;
+    }
+}
